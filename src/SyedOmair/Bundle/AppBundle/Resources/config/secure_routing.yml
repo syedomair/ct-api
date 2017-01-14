@@ -1,0 +1,5 @@
+
+user:
+    type:     annotation
+    resource: SyedOmair\Bundle\AppBundle\Controller\UserController
+

@@ -1,0 +1,16 @@
+
+rest_api:
+    resource: "@AppBundle/Resources/config/secure_routing.yml"
+    prefix: /secure
+
+catalog:
+    type:     annotation
+    resource: SyedOmair\Bundle\AppBundle\Controller\CatalogController
+
+category:
+    type:     annotation
+    resource: SyedOmair\Bundle\AppBundle\Controller\CategoryController
+
+product:
+    type:     annotation
+    resource: SyedOmair\Bundle\AppBundle\Controller\ProductController
